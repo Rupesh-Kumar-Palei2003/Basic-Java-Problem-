@@ -19,7 +19,7 @@ public class ArrayInsertElement {
         int pos = sc.nextInt();
         System.out.println("Enter the number");
         int key = sc.nextInt();
-        for (int i = size; i > pos; i--) {
+        for (int i = size - 1; i > pos; i--) {
             arr[i + 1] = arr[i];
         }
         size = size + 1;
